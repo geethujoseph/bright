@@ -18,8 +18,8 @@
         %tbody
           - @copies.each do |copy|
             %tr
-              %td= copy.id
-              %td= copy.book.name
+              %td=copy.asset.id 
+              %td=copy.asset.name 
               %td= copy.accession_no
               %td= copy.quality
               %td= copy.status

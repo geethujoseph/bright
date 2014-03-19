@@ -18,7 +18,7 @@
           - @reservations.each do |reservation|
             %tr
               %td= reservation.id
-              %td= reservation.book.name
+              %td= reservation.asset.name 
               %td= reservation.member.name
               %td= reservation.reserved_date
               %td= link_to 'Show', reservation
